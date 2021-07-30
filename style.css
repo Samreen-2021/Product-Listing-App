@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaf2ff;
+  padding:30px;
+  @media screen and (max-width: 315px) {
+    padding: 10px;
+  }
+}
+.header{
+  width:90%;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 50px 25px 25px;
+  font-family: Montserrat;
+  color: #000;
+  overflow: hidden;
+}
+h1{
+  margin-left: 9%; 
+  font-size: 40px;
+}
+.btn{
+  margin-left: 9%; 
+  font-size: 28px;
+}
+.tags{
+  margin-top: 25px;
+  margin-right: 8px;
+  border-radius: 25px;
+  padding: 13px 20px;
+  background: #eaf2ff;
+  margin-bottom: 10px;
+  border: #eaf2ff;
+}
+.tags:hover{
+  background-color: blue;
+  color: white;
+/* box-shadow: 4px 4px 0 rgb(49, 49, 77); */
+}
+.row {
+  margin: 10px -5px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  overflow: auto;
+  margin-left: 8%;
+}
+.column{
+  padding: 20px;
+  border: solid 1px black;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+    /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.favorite {
+  /* align-self: flex-end; */
+  width: 35px;
+  height: 35px;
+  margin-left: 88%;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  float: right; 
+  justify-content: center;
+  align-items: center;
+  border: blue solid 5px;
+  background:  #224aff; 
+}
+.fas fa-heart{
+  border: blue solid 1px;
+}
+img{
+  object-fit: contain;
+  margin-top: 10px;
+  object-fit:cover; 
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+.card_content {
+  background: #eaf2ff;
+  border-radius: 30px;
+  padding: 20px;
+  display: grid;
+  margin: 10px; 
+}
+.add{
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  margin-top: 22px;
+  font-size: 18px;
+  background: linear-gradient(to top, #224aff, #6984ff);
+}
+.add:hover{
+  background: #37373d;
+}
+.title {
+  font-size: 20px;
+  margin-top: 20px;
+  }
+.price {
+    font-size: 22px;
+  }
