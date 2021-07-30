@@ -15,6 +15,6 @@
 -Click on the desired category.
 -Filter the product as a result.
 
-## Repo link: 
+## Repo link: https://github.com/Samreen-2021/Product-Listing-App
 
 ## live link: https://samreen-2021.github.io/Product-Listing-App/
